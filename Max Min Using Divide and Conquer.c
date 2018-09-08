@@ -25,7 +25,7 @@ int max_min(int i,int n)
    {
    	mid=(i+n)/2;
       max_min(i,mid);
-      max1=max;  
+      max1=max;
       min1=min;
       max_min(mid+1,n);
       if(max<max1)
